@@ -4,7 +4,7 @@ const app = express();
 
 export const startServer = (port: number) => {
   app.listen(port, () => {
-    // Mensaje para cuando se ha levantado 👋
+    "Server is listening 👋";
   });
 };
 
