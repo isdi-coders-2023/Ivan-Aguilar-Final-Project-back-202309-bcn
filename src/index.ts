@@ -1,8 +1,8 @@
 import "dotenv/config";
 import debugCreator from "debug";
-import { startServer } from "./server/app.js";
-import "./server/index.js";
 import chalk from "chalk";
+import "./server/index.js";
+import { startServer } from "./server/app.js";
 import { connectToDatabase } from "./database/index.js";
 
 const debug = debugCreator("meetMauritius:main");
