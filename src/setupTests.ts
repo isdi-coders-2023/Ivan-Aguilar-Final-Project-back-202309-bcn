@@ -1,6 +1,6 @@
 import "dotenv/config";
-import { MongoMemoryServer } from "mongodb-memory-server";
 import mongoose from "mongoose";
+import { MongoMemoryServer } from "mongodb-memory-server";
 import { connectToDatabase } from "./database/index.js";
 import "./server/index.js";
 
