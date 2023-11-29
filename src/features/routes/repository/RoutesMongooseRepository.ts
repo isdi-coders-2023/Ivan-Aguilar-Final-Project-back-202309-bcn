@@ -9,3 +9,5 @@ class RoutesMongooseRepository implements RoutesRepository {
     return routes;
   }
 }
+
+export default RoutesMongooseRepository;
