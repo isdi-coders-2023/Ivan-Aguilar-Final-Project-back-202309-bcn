@@ -1,5 +1,5 @@
-import { Schema } from "mongoose";
-import type { RouteStructure } from "../types.js";
+import { Schema, model } from "mongoose";
+import type { RouteStructure } from "../types";
 
 const routesSchema = new Schema<RouteStructure>({
   image: {
@@ -31,3 +31,7 @@ const routesSchema = new Schema<RouteStructure>({
     required: true,
   },
 });
+
+const Route = model("Route", routesSchema, "routes");
+
+export default Route;
