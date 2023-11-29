@@ -8,6 +8,7 @@ const customError = new CustomError("Endpoint not found", 404);
 export const notFound = (_req: Request, res: Response, next: NextFunction) => {
   const debug = debugCreator("meetMauritius:server:errors:generalError");
   debug(chalk.red("Endopoint not found"));
+
   next(customError);
 };
 

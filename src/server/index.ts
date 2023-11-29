@@ -9,13 +9,10 @@ const corsPort = process.env.ALLOWED_ORIGIN_URL;
 const corsOptions = { origin: corsPort };
 
 app.use(cors(corsOptions));
-
 app.use(morgan("dev"));
-
 app.use(express.json());
 
 app.use("/", pingRouter);
 
 app.use(generalError);
-
 app.use(notFound);
