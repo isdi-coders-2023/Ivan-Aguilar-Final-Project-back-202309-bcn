@@ -1,6 +1,6 @@
 const routesMock = [
   {
-    _id: "6564a20f803b820996b53g44",
+    _id: "6564a20f803b820996b50a00",
     image:
       "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*IyAju_tGqm7eE7y5.jpg",
     name: "Le Morne Brabant",
@@ -8,10 +8,10 @@ const routesMock = [
     zone: "West",
     price: 70,
     numberOfStops: 2,
-    description: "Aroute throgh the most important mountain of the island",
+    description: "A route throgh the most important mountain of the island",
   },
   {
-    _id: "8564a20f803b820996b507fd",
+    _id: "6564a20f803b820996b50a45",
     image:
       "https://media.tacdn.com/media/attractions-splice-spp-674x446/09/29/aa/ed.jpg",
     name: "Seven Colored Earth Geopark",
@@ -22,7 +22,6 @@ const routesMock = [
     description: "Enjoy an unic place in the world that...",
   },
   {
-    _id: "6564a20f803b820996b508fg",
     image:
       "https://i.pinimg.com/originals/52/0a/ac/520aace25e0e8ea1eca48ae387718314.jpg",
     name: "Île aux Cerfs",
