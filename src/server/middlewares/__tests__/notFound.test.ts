@@ -1,9 +1,9 @@
 import type { NextFunction, Request, Response } from "express";
 import type CustomError from "../../CustomError/CustomError";
-import { notFound } from "../errors/generalError";
+import { notFound } from "../errors/errorsMiddleware";
 import "../../../server/index";
 
-describe("Given a Middleware notFound method", () => {
+describe("Given a notFound middleware", () => {
   describe("When it receives a response", () => {
     test("Then it should call the next function with a 404 status and a 'Endpoint not found error'", () => {
       const req = {};

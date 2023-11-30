@@ -1,6 +1,6 @@
 import { type Request, type Response } from "express";
 import CustomError from "../../CustomError/CustomError";
-import { generalError } from "../errors/generalError";
+import { generalError } from "../errors/errorsMiddleware";
 
 beforeEach(() => {
   jest.clearAllMocks();
@@ -14,7 +14,7 @@ describe("Given a generalError middleware", () => {
   };
   const next = jest.fn();
 
-  describe("When it receivesa response and a 404 error", () => {
+  describe("When it receives a response and a 404 error", () => {
     test("Then it should call the respose's method status with a 400 status code", () => {
       const expectedStatusCode = 404;
       const error = new CustomError("errorMessage", expectedStatusCode);
