@@ -17,6 +17,5 @@ if (!process.env.MONGODB_URL) {
 const mongoUrl = process.env.MONGODB_URL;
 
 await connectToDatabase(mongoUrl);
-debug(chalk.red("Connected to MeetMauritius DB"));
 
 startServer(+port);

@@ -5,6 +5,7 @@ class CustomError extends Error {
     public readonly privateMessage?: string,
   ) {
     super(message);
+    this.privateMessage = privateMessage ?? message;
   }
 }
 
