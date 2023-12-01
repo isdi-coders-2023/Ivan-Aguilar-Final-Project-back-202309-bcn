@@ -1,0 +1,34 @@
+{
+  "info": {
+    "_postman_id": "7b7b8eba-f1df-4d23-9b3b-845b615f7469",
+    "name": "meetmauritius",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "30647398"
+  },
+  "item": [
+    {
+      "name": "/",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "/routes",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "/dfgdfg",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
